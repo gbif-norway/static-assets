@@ -9,8 +9,8 @@ services:
     volumes: 
       - ./static:/usr/share/nginx/html 
     environment:
-      - VIRTUAL_HOST=static.local
-      - LETSENCRYPT_HOST=static.local
+      - VIRTUAL_HOST=static.gbif.no
+      - LETSENCRYPT_HOST=static.gbif.no
 
 networks:
   default:
