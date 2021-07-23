@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: nginx:alpine
+    build: .
     restart: always
     expose:
       - '80'
